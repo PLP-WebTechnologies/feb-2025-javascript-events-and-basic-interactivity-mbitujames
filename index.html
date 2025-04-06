@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Registration Form</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+
+  <h2>Register</h2>
+  <p id="greeting">Hello, Guest!</p>
+
+  <form id="registerForm">
+    <label>Name: <input type="text" id="name" required></label><br><br>
+    <label>Email: <input type="email" id="email" required></label><br><br>
+    <button type="submit">Submit</button>
+    <p class="error" id="errorMsg"></p>
+  </form>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
